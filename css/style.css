@@ -13,6 +13,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: sticky;
+    top: 0;
 }
 
 #banner {
@@ -169,6 +171,7 @@
     width: 90px;
 }
 
+/* Ajustes para responsividad */
 @media (max-width: 768px) {
     #banner {
         flex-direction: column;
